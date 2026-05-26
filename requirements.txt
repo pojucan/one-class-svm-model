@@ -1,0 +1,14 @@
+# Core scientific stack
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+matplotlib==3.9.1
+seaborn==0.13.2
+
+# Persistência de modelos
+joblib==1.4.2
+
+# Qt binding (necessária apenas se houver UI no futuro)
+QtPy==2.4.1      # <-- descomente se precisar de UI
+# PyQt6==6.7.0   # <-- descomente se precisar de UI
+# PySide6==6.8.0 # <-- alternativa ao PyQt
