@@ -410,8 +410,21 @@ python3 src/models/ocsvm/train_ocsvm.py
 
 ---
 
-# Licença
+## 10.  Contribuindo  
 
+1. **Fork** o projeto.  
+2. Crie uma branch para sua feature ou bug‑fix (`git checkout -b minha‑feature`).  
+3. Faça commits claros e pequenos.  
+4. Abra um **Pull Request** descrevendo a mudança.  
+
+Para questões de reprodutibilidade, inclua sempre:
+
+* Atualização do `requirements.txt` (use `pip freeze > requirements.txt`).  
+* Testes que cubram a nova funcionalidade.  
+
+---
+
+# Licença
 
 Este projeto está licenciado sob a **Apache License 2.0**.
 
