@@ -1,10 +1,10 @@
 # Directories:
 *.vscode
 *.venv
+reports/
 
 # Dataset:
 data/lake/gold/mrc/dataset_curated.csv
 
 # Archives:
 *.zip
-*.drawio
