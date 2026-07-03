@@ -35,7 +35,7 @@ model   = joblib.load(OCSVM_DIR / "ocsvm_model.pkl")
 scaler  = joblib.load(OCSVM_DIR / "ocsvm_scaler.pkl")
 
 # 2 - INPUT DO USUÁRIO (arquivo CSV com a amostra)
-DEFAULT_CSV = ROOT_DIR / "test" / "negative_test.csv"
+DEFAULT_CSV = ROOT_DIR / "test" / "positive-test.csv"
 
 if len(sys.argv) > 1:
     csv_path = Path(sys.argv[1])
